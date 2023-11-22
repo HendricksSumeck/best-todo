@@ -1,0 +1,18 @@
+[package]
+name = "best-todo"
+version = "0.1.0"
+edition = "2021"
+build = "build.rs"
+
+[dependencies]
+clap = { version = "4.4.8", features = [] }
+dialoguer = "0.11.0"
+crossterm = "0.27.0"
+colored = "2.0.4"
+directories = "5.0.1"
+config = { version = "0.13.4", features = [] }
+
+[[bin]]
+name = "best-todo"
+path = "src/main.rs"
+
